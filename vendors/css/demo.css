@@ -1,0 +1,35 @@
+@CHARSET "UTF-8";
+
+#content
+{
+	background-color: #efeaea;
+}
+
+#links
+{
+	margin:			auto;
+	width:			85%;
+	margin-bottom:	5px;
+	text-align:		center;
+}
+
+#links a
+{
+	background-color: inherit;
+}
+
+div .chart
+{
+	text-align:	left;
+	margin: auto;
+	margin-bottom: 5px;
+	padding: 20px;
+	width: 80%;
+	border: solid 1px #099009;
+	background-color: #ffffff;
+}
+
+div .chart p
+{
+	font-weight: bold;
+}
