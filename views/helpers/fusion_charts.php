@@ -22,18 +22,18 @@
 
 class FusionChartsHelper extends AppHelper
 {
-	var $helpers = array('Html', 'Javascript', 'Session');
+	var $helpers = array('Html', 'Session');
 	var $charts = array();
 
 	function beforeRender()
 	{
-		$this->Javascript->link('/fusion_charts/js/FusionCharts', false);
+		$this->Html->link('/fusion_charts/js/FusionCharts', false);
 		return true;
 	}
 
 	function afterRender()
 	{
-		$this->Session->del('FusionChartsPlugin.Charts');
+		$this->Session->delete('FusionChartsPlugin.Charts');
 	}
 
 	function _getCharts()
@@ -69,4 +69,4 @@ class FusionChartsHelper extends AppHelper
 		return $this->output($output);
 	}
 }
-?>
+
