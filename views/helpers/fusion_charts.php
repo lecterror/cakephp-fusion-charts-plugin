@@ -27,7 +27,7 @@ class FusionChartsHelper extends AppHelper
 
 	function beforeRender()
 	{
-		$this->Html->link('/fusion_charts/js/FusionCharts', false);
+		$this->Html->script('/fusion_charts/js/FusionCharts', false);
 		return true;
 	}
 
