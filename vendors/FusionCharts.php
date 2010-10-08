@@ -140,5 +140,3 @@ HTMLCHART;
 function boolToNum($bVal) {
     return (($bVal==true) ? 1 : 0);
 }
-
-?>

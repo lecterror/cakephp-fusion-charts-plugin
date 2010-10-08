@@ -1872,7 +1872,3 @@ class FusionCharts{
 
 
 }
-
-
-
-?>
