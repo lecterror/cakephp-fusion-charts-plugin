@@ -70,7 +70,7 @@ class FusionChartsComponent extends Object
 	{
 		if (!is_array($options))
 		{
-			$this->log(sprintf(__('Please provide a set of options for chart %s!'), $name));
+			$this->log(sprintf(__('Please provide a set of options for chart %s!', true), $name));
 			return false;
 		}
 
