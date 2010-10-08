@@ -32,5 +32,3 @@ class FusionChartsDemoController extends FusionChartsAppController
 	{
 	}
 }
-
-?>

@@ -119,5 +119,3 @@ class FinancialDemoController extends FusionChartsAppController
 			);
 	}
 }
-
-?>

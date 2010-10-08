@@ -20,5 +20,3 @@
 class FusionChartsAppModel extends AppModel
 {
 }
-
-?>

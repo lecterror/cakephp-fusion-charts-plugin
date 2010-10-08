@@ -49,5 +49,3 @@ class SwfController extends FusionChartsAppController
 		$this->set(compact('path', 'id', 'name', 'extension'));
 	}
 }
-
-?>

@@ -433,5 +433,3 @@ class FusionChartsComponent extends Object
 		return implode(';', $temp);
 	}
 }
-
-?>

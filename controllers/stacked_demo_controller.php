@@ -468,5 +468,3 @@ class StackedDemoController extends FusionChartsAppController
 			);
 	}
 }
-
-?>

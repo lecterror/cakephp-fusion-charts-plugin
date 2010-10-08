@@ -631,5 +631,3 @@ class MultiSeriesDemoController extends FusionChartsAppController
 			);
 	}
 }
-
-?>

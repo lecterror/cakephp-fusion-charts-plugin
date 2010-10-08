@@ -21,5 +21,3 @@ class FusionChartsAppController extends AppController
 {
 //	var $components = array('DebugKit.Toolbar');
 }
-
-?>

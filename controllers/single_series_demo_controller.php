@@ -406,5 +406,3 @@ class SingleSeriesDemoController extends FusionChartsAppController
 			);
 	}
 }
-
-?>

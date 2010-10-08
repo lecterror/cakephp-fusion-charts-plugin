@@ -667,5 +667,3 @@ class OtherDemoController extends FusionChartsAppController
 			);
 	}
 }
-
-?>
