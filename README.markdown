@@ -15,6 +15,8 @@ Deploy the plugin in your `app/plugins/fusion_charts` directory. If you're using
 Git, run this while in your app folder:
 
 	git submodule add git://github.com/lecterror/cakephp-fusion-charts-plugin.git plugins/fusion_charts
+	git submodule init
+	git submodule update
 
 Or visit <http://github.com/lecterror/cakephp-fusion-charts-plugin>
 and download the plugin manually to your `app/plugins/fusion_charts/` folder.
