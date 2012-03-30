@@ -16,7 +16,7 @@
 <head>
 	<?php echo $this->Html->charset(); ?>
 	<title>
-		<?php __('FusionCharts Cake 2.* plugin demos / tests'); ?>
+		<?php echo __('CakePHP FusionCharts plugin demos / tests'); ?>
 		<?php echo $title_for_layout; ?>
 	</title>
 	<?php
@@ -31,7 +31,7 @@
 <body>
 	<div id="container">
 		<div id="header">
-			<h1><?php __('FusionCharts plugin demos / tests'); ?></h1>
+			<h1><?php echo __('FusionCharts plugin demos / tests'); ?></h1>
 		</div>
 		<div id="content">
 			<?php $this->Session->flash(); ?>
@@ -54,11 +54,14 @@
 			<?php echo $this->fetch('content'); ?>
 		</div>
 		<div id="footer">
-			<a href="http://dsi.vozibrale.com/" title="author's homepage" style="font-variant:small-caps; font-size:small;">http://dsi.vozibrale.com/</a>
-			<?php echo $this->Html->link(
-					$this->Html->image('cake.power.gif', array('alt'=> __("CakePHP: the rapid development php framework", true), 'border'=>"0")),
+			<a href="http://lecterror.com/" title="author's homepage" style="font-size:x-small; color:#ffffff;">http://lecterror.com/</a>
+			<?php
+			echo $this->Html->link
+				(
+					$this->Html->image('cake.power.gif', array('alt'=> __("CakePHP: the rapid development php framework"), 'border'=>"0")),
 					'http://www.cakephp.org/',
-					array('target'=>'_blank'), null, false
+					array('target'=>'_blank', 'escape' => false),
+					false
 				);
 			?>
 		</div>
