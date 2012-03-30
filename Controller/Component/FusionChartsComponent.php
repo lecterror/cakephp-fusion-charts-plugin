@@ -27,17 +27,18 @@ class FusionChartsComponent extends Component
 	 * Constructor
 	 * 
 	 * @param ComponentCollection $collection A ComponentCollection this component can use to lazy load its components
-	 * @param array $settings Array of configuration settings	 * 
+	 * @param array $settings Array of configuration settings
 	 */
-	public function __construct(ComponentCollection $collection, $settings = array()){
-		$this->_controller = $collection->getController();
+	public function __construct(ComponentCollection $collection, $settings = array())
+	{
 		parent::__construct($collection, $settings);
+
+		$this->controller = $collection->getController();
 		$this->settings = $settings;
 	}
 
 	public function initialize($controller)
 	{
-		$this->controller =& $controller;
 		$_settings = $this->defaultSettings;
 
 		if (is_array($this->settings))
