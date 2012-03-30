@@ -1,4 +1,4 @@
-# FusionCharts Plugin for CakePHP 2.* (N.B. not compatible with 1.2/1.3 version) #
+# FusionCharts Plugin for CakePHP 2.*  #
 
 Thank you for trying out FusionCharts plugin for CakePHP!
 
@@ -7,19 +7,19 @@ funcionality to reproduce the charts available in the official FC Free zip file.
 More features will be added and the existing ones will be improved as you people
 start to complain.
 
-Please send your comments and suggestions to d3stinydriv3n[at]gmail.com
+Please send your comments and suggestions to neutrinocms[at]gmail.com
 
 ## Usage ##
 
 Deploy the plugin in your `app/Plugins/FusionCharts` directory. If you're using
 Git, run this while in your app folder:
 
-	git submodule add git://github.com/destinydriven/CakePHP-Fusion-Charts-Plugin.git Plugins/FusionCharts
+	git submodule add git://github.com/lecterror/cakephp-fusion-charts-plugin.git Plugins/FusionCharts
 	git submodule init
 	git submodule update
 
-Or visit <http://github.com/destinydriven/CakePHP-Fusion-Charts-Plugin>
-and download the plugin manually to your `app/Plugins/FusionCharts/` folder.
+Or visit <http://github.com/lecterror/cakephp-fusion-charts-plugin>
+and download the plugin manually to your `app/Plugin/FusionCharts/` folder.
 
 In your Cake installation, edit "app/Config/bootstrap.php" 
    and add the line "CakePlugin::load('FusionCharts');" at the 
